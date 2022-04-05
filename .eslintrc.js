@@ -12,4 +12,19 @@ module.exports = {
   globals: {
     logger: true,
   },
+  settings: {
+    'import/resolver': {
+      typescript: {},
+    },
+  },
+  rules: {
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
+  },
 };

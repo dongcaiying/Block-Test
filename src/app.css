@@ -1,28 +1,24 @@
-html,
+@import '~antd/dist/antd.css';
 body {
-  padding: 0;
   margin: 0;
-}
-.app {
-  text-align: center;
-}
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
-.app-logo {
-  height: 40vmin;
-  pointer-events: none;
+  overflow-x: hidden;
 }
-
-.app-header {
-  background-color: #282c34;
+#body {
+  font-size: 14px;
+}
+html {
+  font-size: 62.5%;
+}
+html body {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+html body #root .App {
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.app-link {
-  color: #4f6af5;
 }
